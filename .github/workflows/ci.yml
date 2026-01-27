@@ -64,3 +64,26 @@ jobs:
       - name: 🌐 Build Frontend Docker image
         run: |
           docker build -t mlops-frontend ./day_three/frontend
+
+            - name: 🧪 Run tests with report
+        run: |
+          if [ -d "tests" ]; then
+            pip install pytest pytest-cov
+            pytest --junitxml=pytest-report.xml --cov=. --cov-report=xml
+          else
+            echo "No tests folder found, skipping tests."
+          fi
+
+      - name: 🧹 Lint report
+        run: |
+          pip install flake8
+          flake8 . --output-file=flake8-report.txt || true
+
+      - name: 📤 Upload backend artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-reports
+          path: |
+            day_three/backend/pytest-report.xml
+            day_three/backend/coverage.xml
+            day_three/backend/flake8-report.txt
