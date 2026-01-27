@@ -8,7 +8,7 @@ The main objective is
 1. [Notes](https://github.com/lft-bhandari/mlops-training-lft/blob/main/day_two/NOTES.md)
 
 ## Assignments
-1. [Day 1]
-2. [Day 2]
-3. [Day 3]
-4. [Day 4]
+1. [Day 1](https://github.com/lft-bhandari/mlops-training-lft/blob/main/day_one/NOTES.md)
+2. [Day 2](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_two)
+3. [Day 3](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_three)
+4. [Day 4](https://github.com/lft-bhandari/mlops-training-lft/tree/main/.github/workflows)
