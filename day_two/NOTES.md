@@ -27,7 +27,12 @@ Container in MLOps
 
 Multi stage building
 
+## Day 5
 
+Model Life Cycle
 
+Dimensonality Reduction and Binning => Assignment
 
+Ninder Dating App with following features:
+Age, Gender, Prefer, Interest, Location
 

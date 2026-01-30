@@ -23,3 +23,7 @@ There are three main steps:
 Example: > "Hello" $\rightarrow$ 15496" world" $\rightarrow$ 995
 3. Vectorization:
 > Each token id is then converted into an embedding. This is a high-dimensional vector (a long list of numbers) that represents the "meaning" of the token.If we imagine this in a simplified 3D space, the vector for "King" would be physically close to the vector for "Queen," and "Apple" would be far away near "Fruit."$$V_{king} - V_{man} + V_{woman} \approx V_{queen}$$
+
+
+**Q. Why output token cost is expensive then input token cost?** 
+> The LLMs are heavily inspired from the transformer architecture. The LLMs when they take input as tokens they can process it parallely and there is also technique called KV cache which allows the LLMs to store the attention values and hence the resource used is efficient. But while generating output tokens they must do it sequentially/. Also let's say LLM is generating paragraph of 100 words then for predicting the 87th word it must process previous 1st word to 86th word. Hence generating output token has lots of overhead tasks and uses the resources extensively.
