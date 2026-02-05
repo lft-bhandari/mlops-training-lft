@@ -34,5 +34,5 @@ Output: relevant document text chunks used for answering
  So if the user uploads the file, then a proper RAG workflow is initiated. Hence, uploading the file and asking QA with ChatGPT is obviously RAG.
 While it is necessary to mention that it may not always invoke the tool depending on the context of information it initially loads in its window the first time user uploads the document file.
 
-[My short interaction with ChatGPT](https://chatgpt.com/share/6981a619-9860-8000-a7ed-4f37c85d8b30)
-[Report Created by Grok on my conversation](day_six/grok_report_on_chatgpt.pdf)
+[My short interaction with ChatGPT](https://chatgpt.com/share/6981a619-9860-8000-a7ed-4f37c85d8b30)\
+[Report Created by Grok on my conversation](https://github.com/lft-bhandari/mlops-training-lft/blob/main/day_six/grok_report_on_chatgpt.pdf)
