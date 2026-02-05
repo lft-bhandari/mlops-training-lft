@@ -13,3 +13,4 @@ The main objective is
 3. [Day 3](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_three)
 4. [Day 4](https://github.com/lft-bhandari/mlops-training-lft/tree/main/.github/workflows)
 5. Sagemaker Notebooks [Day 5](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_five)
+6. [Day 6](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_six)
