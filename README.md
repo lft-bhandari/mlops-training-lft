@@ -15,3 +15,6 @@ The main objective is
 5. Sagemaker Notebooks [Day 5](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_five)
 6. [Day 6](https://github.com/lft-bhandari/mlops-training-lft/tree/main/day_six)
 7. [RAG Project](https://github.com/lft-bhandari/naive_rag_aws)
+
+<img width="3240" height="1010" alt="image" src="https://github.com/user-attachments/assets/8fb4a870-f348-44ad-aedc-fa20a9dda541" />
+
